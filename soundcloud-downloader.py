@@ -12,13 +12,13 @@
 # $: python soundcloud-downloader.py http://soundcloud.com/user/music-123
 ##
 
-
-import json
 import re
+import sys
 import json
 import urllib2
-import sys
+
 from BeautifulSoup import BeautifulSoup
+
 
 #### GET URL FROM SYSARGV ####
 if len(sys.argv) == 2:
